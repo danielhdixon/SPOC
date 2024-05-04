@@ -9,7 +9,6 @@ Fallout 4 Messages texts to modified texts with word count
 import re
 import glob
 
-
 tab = "\t"
 sep = "\n"
 
@@ -19,10 +18,8 @@ parentheses = ('(' or ')')
 unique_lines = []
 word_counts_list = []
 
-path = r"D:\Dropbox\0_python_working_directory\dissertation_python_wd\O_GAME_CORPUS\SK\raw\immersion_text" \
-       r"\SK_MessageExport_8_20" + '\\'
-folder_out = r'D:\Dropbox\0_python_working_directory\dissertation_python_wd\O_GAME_CORPUS\SK\sorted\written' \
-             r'\tutorial_text_v2\messages' + '\\'
+path = r"" + '\\'
+folder_out = r'' + '\\'
 all_book_dict = {}
 
 # READ IN
